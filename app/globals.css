@@ -1,6 +1,19 @@
+@font-face {
+  font-family: "Coolvetica";
+  src: url("../public/fonts/coolvetica/coolvetica\ rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Tex";
+  src: url("../public/fonts/tex-gyre-adventor/texgyreadventor-regular.otf")
+    format("opentype");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-title: "Coolvetica", sans-serif;
+  --font-body: "Tex", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

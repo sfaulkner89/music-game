@@ -1,0 +1,17 @@
+export enum STIPULATIONS {
+  A_G = "Album Starts With A-G",
+  H_N = "Album Starts With H-N",
+  O_U = "Album Starts With O-U",
+  V_Z = "Album Starts With V-Z",
+  ONE_WORD_ALBUM = "One Word Album",
+  TWO_WORD_ALBUM = "Two Word Album",
+  THREE_WORD_ALBUM = "Three Word Album",
+  FOUR_WORD_ALBUM = "Four Word Album",
+  SIXTIES = "Album Released in the 60s",
+  SEVENTIES = "Album Released in the 70s",
+  EIGHTIES = "Album Released in the 80s",
+  NINETIES = "Album Released in the 90s",
+  TWO_THOUSANDS = "Album Released in the 2000s",
+  TWENTY_TENS = "Album Released in the 2010s",
+  TWENTY_TWENTIES = "Album Released in the 2020s",
+}
